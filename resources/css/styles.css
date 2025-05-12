@@ -1,0 +1,33 @@
+html {
+    display: block;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: inline-block;
+    height: 85px;
+    margin: 0px 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    font-family: "Roboto-Mono-Regular", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #4a4a4a;
+}
+
+@media screen and (min-1600px) {
+    .desktop {
+        display: flex;
+    }
+    
+    .desktop li {
+        display: inline-block;
+    }
+    
+}
